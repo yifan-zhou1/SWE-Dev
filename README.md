@@ -32,22 +32,22 @@ pip install -r requirement.txt
 > 
 > **Dependencies:** Make sure all dependencies are correctly installed and the appropriate Python environment is activated.
 
-Use the following command to generate the software included in `rSDE-Bench` using the GPT, Claude, or Gemini APIs. The generated code will be stored in the `codes` directory.
+Step1:
 
 ```bash
-python run_infer.py
+python step1.py
 ```
 
-Evaluate the software code generated in the `codes` directory with the following command:
+Step2:
 
 ```bash
-python run_eval.py
+python step2.py
 ```
 
-To aggregate the performance and differences of the software code generated under various settings, run:
+Step3:
 
 ```
-python update_result.py
+python step3.py
 ```
 
 
@@ -55,14 +55,4 @@ python update_result.py
 
 If you find our work helpful, please use the following citations.
 
-```
-@misc{hu2024selfevolvingmultiagentcollaborationnetworks,
-      title={Self-Evolving Multi-Agent Collaboration Networks for Software Development}, 
-      author={Yue Hu and Yuzhu Cai and Yaxin Du and Xinyu Zhu and Xiangrui Liu and Zijie Yu and Yuchen Hou and Shuo Tang and Siheng Chen},
-      year={2024},
-      eprint={2410.16946},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE},
-      url={https://arxiv.org/abs/2410.16946}, 
-}
-```
+
