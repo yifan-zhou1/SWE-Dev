@@ -21,8 +21,8 @@ conda activate swe_bench
 
 Check out and install this repository:
 ```
-git clone https://github.com/yuzhu-cai/rSDE-Bench.git
-cd rSDE-Bench
+git clone https://github.com/yifan-zhou1/SWE-Dev.git
+cd SWE-Dev
 pip install -r requirement.txt
 ```
 
