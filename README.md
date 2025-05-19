@@ -6,7 +6,7 @@
 Code and data for paper "[SWE-Dev: Evaluating and Training Autonomous Feature-Driven Software Development](https://arxiv.org/abs/2410.16946)".
 
 ## 👋 Overview
-rSDE-Bench is a requirement-oriented benchmark designed to evaluate the ability of models to handle software-level coding tasks. Unlike instruction-based approaches, rSDE-Bench uses detailed software requirements as input, specifying each functionality and constraint of the software. The benchmark includes automatic evaluation through unit tests, providing a more realistic assessment aligned with real-world software development practices.
+SWE-Bench is a ......
 
 <img src="static/images/Intro.jpg">
 
@@ -15,8 +15,8 @@ rSDE-Bench is a requirement-oriented benchmark designed to evaluate the ability 
 
 Make sure to use python 3.8 or later:
 ```
-conda create -n rsde_bench python=3.8
-conda activate rsde_bench
+conda create -n swe_bench python=3.8
+conda activate swe_bench
 ```
 
 Check out and install this repository:
