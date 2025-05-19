@@ -8,7 +8,7 @@ Code and data for paper "[SWE-Dev: Evaluating and Training Autonomous Feature-Dr
 ## 👋 Overview
 SWE-Bench is a ......
 
-<pdf src="static/pdfs/overview.pdf">
+<img src="static/images/overview.jpg">
 
 
 ## 🚀 Set Up
